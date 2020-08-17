@@ -12,7 +12,7 @@ mobile_emulation = { "deviceName": "Pixel 2" }
 opts = webdriver.ChromeOptions()
 opts.add_experimental_option("mobileEmulation", mobile_emulation)
 
-driver = webdriver.Chrome(executable_path=r"C:\Users\nextg\Desktop\InstaAPI\chromedriver.exe",options=opts) #you must enter the path to your driver
+driver = webdriver.Chrome(executable_path=r"\chromedriver.exe",options=opts) #you must enter the path to your driver
 
 main_url = "https://www.instagram.com"
 driver.get(main_url)
@@ -67,7 +67,7 @@ sleep(3)
 close_notification()
 
 for i in range(3):
-    image_path = r"C:\Users\nextg\Desktop\InstaAPI\photo" #The written path is just an example, Delete the path and Enter the Path of your image. #1. path should not start with a back slash
+    image_path = r"\images\photo" #The written path is just an example, Delete the path and Enter the Path of your image. #1. path should not start with a back slash
     image_path+=str(i)
     image_path+=".jpg"
     
