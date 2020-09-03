@@ -4,8 +4,8 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.action_chains import ActionChains
 
-username = "paperparticle" #Enter your username
-password = "Rks&18158920" #Enter your password
+username = "username" #Enter your username
+password = "password" #Enter your password
 caption = "#paperparticle" #Enter the caption 
 
 mobile_emulation = { "deviceName": "Pixel 2" }
